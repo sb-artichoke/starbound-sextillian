@@ -1,0 +1,11 @@
+{
+  "name" : "Sextillian NPCs",
+  "version" : "Stable v. Glad Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "artichoke",
+    "version" : "0.0.1",
+    "description" : "The NPC modpack for sextillians."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "itemName" : "cumhead",
+  "price" : 35,
+  "inventoryIcon" : "icons.png:head",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "category" : "headarmour",
+  "description" : "Eww, you may want to take a shower...",
+  "shortdescription" : "Facial",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png"
+}

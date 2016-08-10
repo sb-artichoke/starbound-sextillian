@@ -1,0 +1,11 @@
+{
+  "name" : "Sextillian-Species",
+  "version" : "Stable v. Glad Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "artichoke",
+    "version" : "0.0.1",
+    "description" : "The species modpack for sextillians."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name" : "Sextillian Objects",
+  "version" : "Stable v. Glad Giraffe",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "artichoke",
+    "version" : "0.0.1",
+    "description" : "The objects modpack for sextillians."
+  }
+}

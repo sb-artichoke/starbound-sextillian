@@ -1,0 +1,37 @@
+{
+  "frameGrid" : {
+    "size" : [20, 20],
+    "dimensions" : [17, 1],
+    "names" : [ [ 
+        "default.1.1", 
+        "default.1.2", 
+        "default.1.3",
+        "default.1.4",
+        
+        "default.2.1",
+        "default.2.2",
+        "default.2.3",
+        "default.2.4",
+        
+        "default.3.1", 
+        "default.3.2", 
+        "default.3.3",
+        "default.3.4",
+        
+        "default.4.1", 
+        "default.4.2", 
+        "default.4.3",
+        "default.4.4",
+        
+        "default.off"
+    ] ]
+  },
+  
+  "aliases" : {
+    "default.default.default" : "default.off",
+    "default.channel1" : "default.1.1",
+    "default.channel2" : "default.2.1",
+    "default.channel3" : "default.3.1",
+    "default.channel4" : "default.4.1"
+  }
+}

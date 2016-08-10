@@ -1,0 +1,22 @@
+{
+  "materialId" : 690,
+  "materialName" : "heartpaper",
+  "particleColor" : [225, 191, 150, 255],
+  "itemDrop" : "heartpaper",
+  "description" : "Steamy wallpaper for your love nest.",
+  "shortdescription" : "Heart Wallpaper",
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "health" : 8,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "heartpaper.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : true,
+    "multiColored" : true,
+    "zLevel" : 2640
+  }
+}

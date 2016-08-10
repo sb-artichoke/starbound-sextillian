@@ -1,0 +1,9 @@
+[{
+		"op" : "add",
+		"path" : "/species/sextill",
+		"value" : {
+      "aiFrames" : "humanAi.png",
+      "portraitFrames" : "portraits/humanportrait.png",
+      "staticFrames" : "staticHuman.png"
+    }
+}]

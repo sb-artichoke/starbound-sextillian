@@ -1,0 +1,69 @@
+{
+  "objectName" : "sextilltv",
+  "colonyTags" : ["sextill","sextillvillage","electronic"],
+  "rarity" : "Common",
+  "description" : "Only picks up 18+ channels.",
+  "shortdescription" : "Nasty Television",
+  "race" : "sextill",
+  "category" : "decorative",
+  "price" : 55,
+  
+  "defaultTvState" : 0,
+  "tvNumChannels" : 4,
+  
+  "lightColor" : [160, 100, 100],
+  "pointLight" : true,
+  "pointBeam" : 2.25,
+  "beamAmbience" : 0.3,
+  
+  "flickerPeriod" : 0.6,
+  "flickerMinIntensity" : 0.9,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.1,
+  "flickerIntensityVariance" : 0.1,
+
+  "inventoryIcon" : "sextilltvicon.png",
+
+  "soundEffect" : "/sfx/objects/tv_moans.ogg",
+
+  "animation" : "sextilltv.animation",
+  "animationParts" : {
+    "bg" : "sextilltv.png",
+    "fg" : "sextilltvlit.png"
+  },
+
+  "scripts" : [ "/objects/wired/tv/tv.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, -2] ],
+  
+  "orientations" : [
+    {
+      "image" : "sextilltv.png:<color>.<channel>.<frame>",
+      "imagePosition" : [-6, 0],
+      "direction" : "left",
+      "flipImages" : true,
+      
+      "spaceScan" : 0.1,
+      "beamAngle" : 180,
+      "lightPosition" : [1, 0],
+      "animationPosition" : [-6, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "sextilltv.png:<color>.<channel>.<frame>",
+      "imagePosition" : [-6, 0],
+      "direction" : "right",
+      
+      "spaceScan" : 0.1,
+      "beamAngle" : 0,
+      "lightPosition" : [-1, 0],
+      "animationPosition" : [-6, 0],
+
+      "spaces" : [ [-1, 0], [0, 0], [1, 0], [-1, 1], [0, 1], [1, 1], [-1, 2], [0, 2], [1, 2] ],
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

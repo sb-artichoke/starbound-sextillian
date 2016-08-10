@@ -1,0 +1,13 @@
+[
+  {
+    "op" : "add",
+    "path" : "/initialcodex/sextill",
+    "value" : [
+      "controls",
+      "humanprologue",
+      "humanorigins",
+      "humanescape",
+      "survivalguide"
+    ]
+  }
+]

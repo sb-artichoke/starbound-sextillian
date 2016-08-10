@@ -1,0 +1,15 @@
+[{
+	"op" : "add",
+	"path" : "/speciesShips/sextill",
+	"value" : [
+		"/ships/human/humanT0.structure",
+		"/ships/human/humanT1.structure",
+		"/ships/human/humanT2.structure",
+		"/ships/human/humanT3.structure",
+		"/ships/human/humanT4.structure",
+		"/ships/human/humanT5.structure",
+		"/ships/human/humanT6.structure",
+		"/ships/human/humanT7.structure",
+		"/ships/human/humanT8.structure"
+	]
+}]

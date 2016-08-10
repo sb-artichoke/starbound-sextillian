@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rope", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "tiedchest", "count" : 1 },
+  "groups" : [ "craftingwheel", "clothes" ]
+}

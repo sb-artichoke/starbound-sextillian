@@ -1,0 +1,33 @@
+[{
+    "op": "add",
+    "path": "/species/0",
+    "value": "orcana"
+}, {
+    "op": "add",
+    "path": "/defaultCodexes/sextill",
+    "value": ["protectorate1", "protectorate2"]
+}, {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+        "item": "nudechest"
+    }
+}, {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+        "item": "nudelegs"
+    }
+}, {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+        "item": "bikinichest"
+    }
+}, {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+        "item": "bikinilegs"
+    }
+}]

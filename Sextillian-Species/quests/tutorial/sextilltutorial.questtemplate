@@ -1,0 +1,58 @@
+{
+	//ID:
+	//this is the quest id, if you are using this file for a custom starting quest,
+	//you will need to add it to the quest.config.patch of your race
+	"id" : "sextilltutorial.gearup",
+
+	//Title:
+	//The title of the quest.
+	"title" : "^orange;Starting Quest Template",
+
+	//Text:
+	//This is the text that will be shown when the quest is given to the player
+	//and if he decides to go back to read the quest's detail.
+	"text" : "Your Quest Text Here.",
+
+	//Completion Text:
+	//This is the text shown once you complete the quest.
+	"completionText" : "Your reward text here!",
+
+	//Speaker
+	//This is who speaks, for the starting quest you want to leave it to player.
+	"speaker" : "player",
+
+	//Money Range
+	//This is the money given to the player for completing the quest,
+	//By default the starting quest gives you 500 pixels
+	"moneyRange" : [500, 500],
+	
+	//Can Be Abandoned:
+	//Wether or not you can decline the offer.
+	//keep it to false for a starting quest
+	"canBeAbandoned" : false,
+
+	//UpdateDelta:
+	//This is how often the quest will check for the completition of the quest.
+	//i have no idea of the unit used but i think it's in seconds
+	"updateDelta" : 10,
+
+	//Script:
+	//The script used to handle the quest completition.
+	//Don't touch that unlell you know what you are doing.
+	"script" : "/quests/scripts/main.lua",
+
+	//Script Config:
+	//These are the configuration given to the script.
+	//It should contain some sort of completition requirement
+	//and the follow up quest if there is one.
+	"scriptConfig" : {
+
+		//Follow Up:
+		//The follow up quest id
+		"followUp" : "ftlrepairmain.gearup",
+
+		//Ship Level:
+		//The level or tier the ship has to have reached for the quest to be completed.
+		"shipLevel" : 2
+	}
+}
