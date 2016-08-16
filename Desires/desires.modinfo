@@ -1,11 +1,11 @@
 {
-  "name" : "Desires Erotic Goods",
+  "name" : "desires_erotic_goods",
   "version" : "Stable v. Glad Giraffe",
   "path" : ".",
   "dependencies" : [],
   "metadata" : {
     "author" : "artichoke",
-    "version" : "0.0.1",
-    "description" : "Adds an erotic store to the outpost."
+    "version" : "0.0.2",
+    "description" : "Adds an erotic store."
   }
 }

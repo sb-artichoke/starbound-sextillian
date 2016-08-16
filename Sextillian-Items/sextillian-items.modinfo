@@ -1,8 +1,10 @@
 {
-  "name" : "Sextillian Items",
+  "name" : "sextillian_items",
   "version" : "Stable v. Glad Giraffe",
   "path" : ".",
-  "dependencies" : [],
+  "dependencies" : [
+    "desires_erotic_goods"
+  ],
   "metadata" : {
     "author" : "artichoke",
     "version" : "0.0.1",

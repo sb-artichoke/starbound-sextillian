@@ -176,7 +176,7 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/teleport/up_orcana.png:<frame>"
+          "image" : "/cinematics/teleport/up_human.png:<frame>"
         }
       ],
       "animationFrames" : 4,
@@ -207,7 +207,7 @@
     {
       "drawables" : [
         {
-          "image" : "/cinematics/teleport/warpdown_orcana.png:<frame>"
+          "image" : "/cinematics/teleport/warpdown_human.png:<frame>"
         }
       ],
       "animationFrames" : 4,

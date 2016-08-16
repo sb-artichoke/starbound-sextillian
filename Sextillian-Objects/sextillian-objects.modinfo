@@ -1,11 +1,13 @@
 {
-  "name" : "Sextillian Objects",
+  "name" : "sextillian_objects",
   "version" : "Stable v. Glad Giraffe",
   "path" : ".",
-  "dependencies" : [],
+  "dependencies" : [
+    "desires_erotic_goods"
+  ],
   "metadata" : {
     "author" : "artichoke",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "The objects modpack for sextillians."
   }
 }
