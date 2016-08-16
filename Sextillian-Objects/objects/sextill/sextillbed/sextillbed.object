@@ -7,7 +7,7 @@
   "shortdescription" : "Love Bed",
   "race" : "sextill",
   "category" : "furniture",
-  "price" : 45,
+  "price" : 120,
   "inventoryIcon" : "sextillbedicon.png",
   "orientations" : [
     {

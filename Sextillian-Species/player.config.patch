@@ -1,7 +1,7 @@
 [{
     "op": "add",
     "path": "/species/0",
-    "value": "orcana"
+    "value": "sextill"
 }, {
     "op": "add",
     "path": "/defaultCodexes/sextill",

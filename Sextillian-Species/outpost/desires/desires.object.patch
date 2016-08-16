@@ -1,0 +1,14 @@
+[{
+    "op": "add",
+    "path": "/interactData/items/0",
+    "value": {
+        "item" : "nudechest"
+    }
+},
+{
+    "op": "add",
+    "path": "/interactData/items/0",
+    "value": {
+        "item" : "nudelegs"
+    }
+}]

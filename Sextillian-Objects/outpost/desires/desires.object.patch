@@ -1,0 +1,28 @@
+[{
+    "op": "add",
+    "path": "/interactData/items/0",
+    "value": {
+        "item" : "sextillbed"
+    }
+},
+{
+    "op": "add",
+    "path": "/interactData/items/0",
+    "value": {
+        "item" : "sextilllamp1"
+    }
+},
+{
+    "op": "add",
+    "path": "/interactData/items/0",
+    "value": {
+        "item" : "sextilltv"
+    }
+},
+{
+    "op": "add",
+    "path": "/interactData/items/0",
+    "value": {
+        "item" : "heartpaper"
+    }
+}]

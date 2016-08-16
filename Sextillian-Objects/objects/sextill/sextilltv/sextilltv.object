@@ -6,7 +6,7 @@
   "shortdescription" : "Nasty Television",
   "race" : "sextill",
   "category" : "decorative",
-  "price" : 55,
+  "price" : 200,
   
   "defaultTvState" : 0,
   "tvNumChannels" : 4,

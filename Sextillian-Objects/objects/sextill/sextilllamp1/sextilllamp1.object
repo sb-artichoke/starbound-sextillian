@@ -7,7 +7,7 @@
   "race" : "sextill",
 
   "category" : "light",
-  "price" : 85,
+  "price" : 45,
   "lightColor" : [255, 170, 184],
 
   "inventoryIcon" : "sextilllamp1icon.png",

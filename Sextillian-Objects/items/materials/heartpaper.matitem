@@ -1,12 +1,11 @@
 {
   "itemName" : "heartpaper",
-  "price" : 0,
+  "price" : 10,
   "category" : "block",
   "rarity" : "Common",
   "inventoryIcon" : "heartpaper.png",
   "description" : "Steamy wallpaper for your love nest.",
   "shortdescription" : "Heart Wallpaper",
 
-  "materialId" : 690,
-  "learnBlueprintsOnPickup" : [ "heartpaper" ]
+  "materialId" : 690
 }

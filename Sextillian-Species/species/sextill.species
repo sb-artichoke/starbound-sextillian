@@ -212,7 +212,7 @@
 			"shirt" : [ "nudechest", "cropchest", "tiedchest", "grasschest", "necklacechest", "cumchest" ],
 
 			//The pants you will allow the character to start with
-			"pants" : [ "nudelegs", "bikinilegs", "grasslegs" ],
+			"pants" : [ "nudelegs", "bikinilegs", "grasslegs", "erectionlegs" ],
 
 			//The facial hair group name, it's also the name of the folder containing all the options in he humanoid folder of your race,
 			//for example the apex has a facial hair group called beardmale. therefore a folder in the apex humanoid folder will need to
@@ -235,7 +235,7 @@
 			"characterImage" : "/interface/title/sextillfemale.png",
 			"hair" : [ "fem1", "fem2", "fem3", "fem4", "fem5", "fem6", "fem7", "fem8", "fem9", "fem10", "fem11", "fem12", "fem13", "fem14", "fem15", "fem16", "fem17", "fem18", "fem19", "fem20", "fem21", "fem22", "fem23", "fem24", "fem25", "fem26", "fem27", "fem28", "fem29", "fem30", "fem31", "fem32", "fem33", "fem34", "fem35", "fem36", "fem37", "fem38", "fem39", "fem40", "fem41", "fem42", "fem43", "fem44", "fem45", "fem46", "fem47", "fem48", "fem49", "fem50", "fem51", "fem52", "fem53", "fem54", "fem55", "fem56", "fem57", "fem58", "fem59", "fem60", "fem61", "fem62", "fem63" ], //  "hair2cut" "hair9cut"
 			"shirt" : [ "nudechest", "bikinichest", "cropchest", "tiedchest", "grasschest", "necklacechest", "cumchest" ],
-			"pants" : [ "nudelegs", "bikinilegs", "grasslegs" ],
+			"pants" : [ "nudelegs", "bikinilegs", "grasslegs", "straponlegs" ],
 			"facialHairGroup" : "",
 			"facialHair" : [ ],
 			"facialMaskGroup" : "",

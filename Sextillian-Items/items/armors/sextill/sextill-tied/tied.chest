@@ -2,6 +2,7 @@
   "itemName" : "tiedchest",
   "inventoryIcon" : "icons.png:chest",
   "dropCollision" : [-4.0, -3.0, 4.0, 3.0],
+  "price": 80,
   "maxStack" : 1,
   "rarity" : "Common",
   "description" : "You may need some help getting this off.",

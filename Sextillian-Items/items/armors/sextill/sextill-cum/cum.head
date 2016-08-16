@@ -1,6 +1,6 @@
 {
   "itemName" : "cumhead",
-  "price" : 35,
+  "price" : 15,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
   "rarity" : "Common",
