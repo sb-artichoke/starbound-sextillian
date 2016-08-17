@@ -6,6 +6,7 @@
   "description" : "An erotic goods shop! Try to contain yourself.",
   "shortdescription" : "Desires Erotic Goods",
   "race" : "generic",
+  "price": 1000,
 
   "interactAction" : "OpenMerchantInterface",
   "interactData" : {
