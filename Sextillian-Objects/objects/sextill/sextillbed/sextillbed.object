@@ -27,10 +27,10 @@
   "sitFlipDirection" : true,
   "sitPosition" : [-10, 14],
   "sitOrientation" : "lay",
-  "sitAngle" : 90,
-  "sitEmote" : "sleep",
+  "sitAngle" : 80,
+  "sitEmote" : "oh",
   "sitStatusEffects" : [
-    "bed1"
+    "love"
   ],
-  "sitEffectEmitters" : [ "sleepbubbles" ]
+  "sitEffectEmitters" : [ ]
 }
