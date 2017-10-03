@@ -8,6 +8,8 @@
   "description" : "Light as a feather, stiff as a board.",
   "shortdescription" : "Erection",
   "tooltipKind" : "armor",
+  "statusEffects" : [
+  ],
 
   "maleFrames" : "pants.png",
   "femaleFrames" : "pants.png",

@@ -12,25 +12,29 @@
   "orientations" : [
     {
       "dualImage" : "sextillbed.png:<color>",
+      "sitCoverImage" : "/objects/sextill/sextillbed/sextillbed.png",
 
       "imagePosition" : [-24, 0],
       "frames" : 1,
       "animationCycle" : 1.0,
 
       "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
     }
   ],
 
+  "scripts" : [ "/objects/sextill/sextillbed/sextillbed.lua" ],
+  "scriptDelta" : 60,
+
   "objectType" : "loungeable",
   "sitFlipDirection" : true,
-  "sitPosition" : [-10, 14],
+  "sitPosition" : [-10, 10],
   "sitOrientation" : "lay",
-  "sitAngle" : 80,
+  "sitAngle" : 90,
   "sitEmote" : "oh",
   "sitStatusEffects" : [
     "love"
   ],
-  "sitEffectEmitters" : [ ]
+  "sitEffectEmitters" : []
 }
