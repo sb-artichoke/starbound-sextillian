@@ -1,0 +1,27 @@
+{
+  "type" : "giver",
+  "baseType" : "base",
+  
+  "damageTeam" : 2,
+  "damageTeamType" : "enemy",
+  "persistent" : false,
+
+  "scriptConfig" : {
+    "behavior" : "sex-standing-giver"
+  },
+
+  "items" : {
+    "override" : [
+      [0, [{}] ]
+    ]
+  },
+  
+  // Temporary setting for removing tests.
+  "statusControllerSettings": {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}

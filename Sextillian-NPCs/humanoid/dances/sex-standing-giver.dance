@@ -1,0 +1,18 @@
+{
+  "name" : "sex-standing-giver",
+  "states" : ["idle"],
+  "cycle" : 1,
+  "cyclic" : true,
+  "duration" : 1,
+  "steps" : [
+    // body, frontArm, backArm, headOffset, frontArmOffset, backArmOffset
+    [ "idle.1", "run.2", "rotation", [1, -2], [0, -1], [-2, -1] ],
+    [ "idle.2", "run.2", "rotation", [0, -1], [0, -1], [-2, -1] ],
+    [ "idle.2", "run.2", "rotation", [0, -1], [0, -1], [-2, -1] ],
+    [ "idle.4", "run.2", "rotation", [0, -1], [0, -1], [-2, -1] ],
+    [ "idle.4", "run.3", "run.3", [-1, 0], [-1, 1], [0, 0] ],
+    [ "idle.4", "run.3", "run.3", [-1, 0], [-1, 1], [0, 0] ],
+    [ "idle.4", "run.3", "run.3", [-1, 0], [-1, 1], [0, 0] ],
+    [ "idle.4", "run.3", "run.3", [-1, 0], [-1, 1], [0, 0] ]
+  ]
+}
