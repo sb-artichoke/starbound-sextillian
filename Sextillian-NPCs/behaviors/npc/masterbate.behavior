@@ -1,0 +1,68 @@
+{
+  "name": "masterbate",
+  "description": "One is the loneliest number that you'll ever do.",
+  "scripts": [
+    "/scripts/actions/position.lua",
+    "/scripts/actions/movement.lua",
+    "/scripts/actions/npc.lua",
+    "/scripts/actions/time.lua"
+  ],
+  "parameters": {},
+  "root": {
+    "title": "parallel",
+    "type": "composite",
+    "name": "parallel",
+    "parameters": {},
+    "children": [
+      {
+        "title": "dance",
+        "type": "action",
+        "name": "dance",
+        "parameters": {
+          "dance": {
+            "value": "masterbate"
+          }
+        }
+      },
+      {
+        "title": "sequence",
+        "type": "composite",
+        "name": "sequence",
+        "children": [
+          {
+            "title": "emote",
+            "type": "action",
+            "name": "emote",
+            "parameters": {
+              "emote": {"value": "oh"}
+            }
+          },
+          {
+            "title": "timer",
+            "type": "action",
+            "name": "timer",
+            "parameters": {
+              "time": {"value": 0.2}
+            }
+          },
+          {
+            "title": "emote",
+            "type": "action",
+            "name": "emote",
+            "parameters": {
+              "emote": {"value": "happy"}
+            }
+          },
+          {
+            "title": "timer",
+            "type": "action",
+            "name": "timer",
+            "parameters": {
+              "time": {"value": 0.2}
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,7 +3,7 @@ require "/scripts/actions/npc.lua"
 
 function init()
   
-  storage.userNpc = false
+  -- storage.userNpc = false
   self.interactive = config.getParameter("interactive", true)
   object.setInteractive(self.interactive)
 
@@ -11,10 +11,10 @@ end
 
 function update()
   local occupied = world.loungeableOccupied(entity.id())
-  if not occupied and storage.userNpc then
-    world.callScriptedEntity(storage.userNpc, "status.setResource", "health", 0)
+  if not occupied and storage.userNpc2 then
+    -- world.callScriptedEntity(storage.userNpc, "status.setResource", "health", 0)
     world.callScriptedEntity(storage.userNpc2, "status.setResource", "health", 0)
-    storage.userNpc = false
+    -- storage.userNpc = false
     storage.userNpc2 = false
   end
 end
@@ -33,23 +33,23 @@ function onInteraction(args)
   --   sb.logInfo(tostring(v))
   -- end
   
-  storage.userNpc = world.spawnNpc(
-    vec2.add({0.5, 5}, object.position()),
-    "sextill",
-    "giver",
-    1,
-    nil,
-    {
-      identity = {
-        gender = "male"
-      }
-    }
-  )
+  -- storage.userNpc = world.spawnNpc(
+  --   vec2.add({0.5, 5}, object.position()),
+  --   "sextill",
+  --   "giver",
+  --   1,
+  --   nil,
+  --   {
+  --     identity = {
+  --       gender = "male"
+  --     }
+  --   }
+  -- )
   
   storage.userNpc2 = world.spawnNpc(
     vec2.add({-0.5, 5}, object.position()),
     "sextill",
-    "receiver",
+    "masterbater",
     1,
     nil,
     {
@@ -59,7 +59,7 @@ function onInteraction(args)
     }
   )
   
-  world.callScriptedEntity(storage.userNpc, "status.setResource", "health", 1)
+  -- world.callScriptedEntity(storage.userNpc, "status.setResource", "health", 1)
   -- world.callScriptedEntity(storage.userNpc, "npc.dance", "posedance")
   
   world.callScriptedEntity(storage.userNpc2, "status.setResource", "health", 1)

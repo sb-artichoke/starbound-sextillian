@@ -1,0 +1,20 @@
+{
+  "name" : "masterbate",
+  "states" : ["idle"],
+  "cycle" : 1,
+  "cyclic" : true,
+  "duration" : 1,
+  "steps" : [
+    // body, frontArm, backArm, headOffset, frontArmOffset, backArmOffset
+    [ "kneel.1", "kneel.1", "kneel.1", [-1, -5], [0, 0], [0, 0] ],
+    [ "kneel.2", "kneel.2", "kneel.2", [0, -5], [0, 1], [0, 0] ],
+    [ "kneel.2", "kneel.2", "kneel.2", [0, -5], [0, 0], [0, 0] ],
+    [ "kneel.1", "kneel.1", "kneel.1", [-1, -5], [0, -1], [-1, 0] ],
+    [ "kneel.3", "kneel.2", "kneel.2", [-1, -5], [1, 0], [0, 0] ],
+    [ "kneel.1", "kneel.2", "kneel.2", [-1, -5], [0, 0], [0, 0] ],
+    [ "kneel.2", "kneel.1", "kneel.1", [-1, -5], [0, 1], [-1, 0] ],
+    [ "kneel.2", "kneel.2", "kneel.2", [-1, -5], [0, 0], [0, 0] ],
+    [ "kneel.1", "kneel.2", "kneel.1", [-1, -5], [0, -1], [0, 0] ],
+    [ "kneel.3", "kneel.1", "kneel.2", [-1, -5], [1, 0], [0, 0] ]
+  ]
+}
