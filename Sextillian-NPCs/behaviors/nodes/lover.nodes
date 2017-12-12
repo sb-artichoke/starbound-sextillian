@@ -1,0 +1,14 @@
+{
+  "vehicleLounge": {
+    "type": "action",
+    "name": "vehicleLounge",
+    "title": "vehicleLounge",
+    "properties": {
+      "entity": {"type": "entity", "value": null},
+      "anchorIndex": {"type": "number", "value": null}
+    },
+    "category": "npc",
+    "script": "/scripts/actions/lover.lua",
+    "output": {}
+  }
+}

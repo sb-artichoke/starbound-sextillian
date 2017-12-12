@@ -1,7 +1,7 @@
 {
   "frameGrid" : {
     "size" : [43, 43],
-    "dimensions" : [9, 8],
+    "dimensions" : [9, 9],
 
     "names" : [
       [ null, "idle.1", "idle.2", "idle.3", "idle.4", "idle.5", "sit.1", null, "duck.1" ],
@@ -10,6 +10,7 @@
       [ null, "jump.1", "jump.2", "jump.3", "jump.4", "fall.1", "fall.2", "fall.3", "fall.4" ],
       [ null, "climb.1", "climb.2", "climb.3", "climb.4", "climb.5", "climb.6", "climb.7", "climb.8" ],
       [ null, "swimIdle.1", null, null, "swim.1", "swim.2", "swim.3", "swim.4" ],
+      [ null, null, null, null, null, null, null, null ],
       [ null, "kneel.1", "kneel.2", "kneel.3", "kneel.4", "kneel.5", "kneel.6", "kneel.7" ],
       [ null, "lay.2", "lay.3", "lay.4", "lay.5", "lay.6", "lay.7" ]
     ]

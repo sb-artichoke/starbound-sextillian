@@ -1,0 +1,14 @@
+{
+  "frameGrid" : {
+    "size" : [69, 35],
+    "dimensions" : [4, 2],
+
+    "names" : [
+      [ "bedding.made", "bedding.unmade", null, null],
+      [ null, null, null, null ]
+    ]
+  },
+  "aliases" : {
+    "bedding.default" : "bedding.made"
+  }
+}

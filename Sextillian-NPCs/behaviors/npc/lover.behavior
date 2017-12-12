@@ -1,0 +1,144 @@
+{
+  "name": "lover",
+  "description": "",
+  "scripts": [
+    "/scripts/actions/query.lua",
+    "/scripts/actions/world.lua",
+    "/scripts/behavior.lua",
+    "/scripts/actions/movement.lua",
+    "/scripts/actions/npc.lua",
+    "/scripts/actions/time.lua",
+    "/scripts/actions/lover.lua"
+  ],
+  "parameters": {},
+  "root": {
+    "title": "Sit",
+    "type": "composite",
+    "name": "sequence",
+    "parameters": {},
+    "children": [
+      {
+        "title": "",
+        "type": "action",
+        "name": "queryEntity",
+        "parameters": {
+          "entityTypes": {"value": ["vehicle"]},
+          "orderBy": {"value": "nearest"},
+          "orientation": {"value": "stand"},
+          "position": {"key": "spawn"},
+          "range": {"value": 80}
+        },
+        "output": {
+          "list": "vehicles"
+        }
+      },
+      {
+        "title": "listPop",
+        "type": "action",
+        "name": "listPop",
+        "parameters": {
+          "list": {"key": "vehicles"}
+        },
+        "output": {
+          "list" : "vehicles",
+          "entity": "chair"
+        }
+      },
+      {
+        "title": null,
+        "type": "action",
+        "name": "entityPosition",
+        "parameters": {
+          "entity": {"key": "chair"}
+        },
+        "output": {
+          "position": "chair"
+        }
+      },
+      {
+        "title": "",
+        "type": "composite",
+        "name": "parallel",
+        "parameters": {
+          "fail": {"value": 1},
+          "success": {"value": -1}
+        },
+        "children": [
+          {
+            "title": "entityExists",
+            "type": "action",
+            "name": "entityExists",
+            "parameters": {
+              "entity": {"key": "chair"}
+            }
+          },
+          {
+            "title": "moveToPosition",
+            "type": "action",
+            "name": "moveToPosition",
+            "parameters": {
+              "avoidLiquid": {"value": true},
+              "groundPosition": {"value": true},
+              "position": {"key": "chair"}
+            },
+            "output": {}
+          }
+        ]
+      },
+      {
+        "title": "parallel",
+        "type": "composite",
+        "name": "parallel",
+        "parameters": {
+          "fail": {"value": -1},
+          "success": {"value": -1}
+        },
+        "children": [
+          {
+            "title": "",
+            "type": "composite",
+            "name": "sequence",
+            "parameters": {},
+            "children": [
+              {
+                "title": "vehicleLounge",
+                "type": "action",
+                "name": "vehicleLounge",
+                "parameters": {
+                  "entity": {"key": "chair"},
+                  "anchorIndex": {"value": 0}
+                }
+              },
+              {
+                "title": "vehicleLounge",
+                "type": "action",
+                "name": "vehicleLounge",
+                "parameters": {
+                  "entity": {"key": "chair"},
+                  "anchorIndex": {"value": 1}
+                }
+              },
+              {
+                "title": "vehicleLounge",
+                "type": "action",
+                "name": "vehicleLounge",
+                "parameters": {
+                  "entity": {"key": "chair"},
+                  "anchorIndex": {"value": 2}
+                }
+              }
+            ]
+          },
+          {
+            "title": "",
+            "type": "action",
+            "name": "timer",
+            "parameters": {
+              "time": {"value": [20, 120]}
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

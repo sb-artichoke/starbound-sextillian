@@ -1,0 +1,41 @@
+{
+  "frameGrid" : {
+    "size" : [43, 43],
+    "dimensions" : [8, 16],
+
+    "names" : [
+      [ null, "blabber.1", "blabber.2", null, "shout.1", "shout.2", null, null ],
+      [ null, "happy.1", "happy.2", null, null, null, null, "idle.1" ],
+      [ null, "sad.1", "sad.2", "sad.3", "sad.4", "sad.5", null, null ],
+      [ null, "neutral.1", "neutral.2", null, "laugh.1", "laugh.2", null, null ],
+      [ null, "annoyed.1", "annoyed.2", null, null, null, null, null ],
+      [ null, "oh.1", "oh.2", null, "oooh.1", "oooh.2", "oooh.3", null ],
+      [ null, null, null, null, null, null, null, null ],
+      [ null, "blink.1", "blink.2", null, "wink.1", "wink.2", "wink.3", "wink.4" ],
+      // Laying Emotes
+      [ null, "lay.blabber.1", "lay.blabber.2", null, "lay.shout.1", "lay.shout.2", null, null ],
+      [ null, "lay.happy.1", "lay.happy.2", null, null, null, null, "lay.idle.1" ],
+      [ null, "lay.sad.1", "lay.sad.2", "lay.sad.3", "lay.sad.4", "lay.sad.5", null, null ],
+      [ null, "lay.neutral.1", "lay.neutral.2", null, "lay.laugh.1", "lay.laugh.2", null, null ],
+      [ null, "lay.annoyed.1", "lay.annoyed.2", null, null, null, null, null ],
+      [ null, "lay.oh.1", "lay.oh.2", null, "lay.oooh.1", "lay.oooh.2", "lay.oooh.3", null ],
+      [ null, null, null, null, null, null, null, null ],
+      [ null, "lay.blink.1", "lay.blink.2", null, "lay.wink.1", "lay.wink.2", "lay.wink.3", "lay.wink.4" ]
+    ]
+  },
+  "aliases" : {
+    "eat.1" : "shout.1",
+    "eat.2" : "shout.2",
+    "blink.3" : "idle.1",
+    "wink.5" : "idle.1",
+    "sleep.1" : "blink.2",
+    "sleep.2" : "blink.2",
+    // Laying aliases
+    "lay.eat.1" : "lay.shout.1",
+    "lay.eat.2" : "lay.shout.2",
+    "lay.blink.3" : "lay.idle.1",
+    "lay.wink.5" : "lay.idle.1",
+    "lay.sleep.1" : "lay.blink.2",
+    "lay.sleep.2" : "lay.blink.2"
+  }
+}

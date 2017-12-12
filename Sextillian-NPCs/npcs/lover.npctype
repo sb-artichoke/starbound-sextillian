@@ -1,0 +1,40 @@
+{
+  "type" : "lover",
+  "baseType" : "base",
+  
+  "damageTeam" : 2,
+  "damageTeamType" : "enemy",
+  "persistent" : false,
+
+  "scriptConfig" : {
+    "behavior" : "lover",
+    "dialogMode" : "static",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Off to a bit of a late start, aren't you <entityname>?",
+            "I love this seat. So comfortable, and with a great view.",
+            "Most people are courteous enough to vacate a seat if you ask nicely, but this chair's too comfortable to give up.",
+            "Congratulations on your graduation, my friend. You've earned it."
+          ]
+        }
+      }
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [{}] ]
+    ]
+  },
+  
+  // Temporary setting for removing tests.
+  "statusControllerSettings": {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 1.0
+      }
+    }
+  }
+}
