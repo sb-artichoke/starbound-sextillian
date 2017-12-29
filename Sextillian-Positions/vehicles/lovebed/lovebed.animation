@@ -137,15 +137,85 @@
           }
         }
       },
+      
+      "middleSeat" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1,
+          "transformationGroups" : ["flip", "rotation", "middleSeat"],
+          "middleSeatPosition" : [0.2, 2.4],
+          "rotationCenter" : [0.2, 4.4],
+          "scaleCenter" : [0.2, 4.4]
+        },
+
+        "partStates" : {
+
+          "movement" : {
+            
+            "idle" : {
+              "properties" : {}
+            },
+
+            "invisible" : {
+              "properties" : {}
+            }
+          }
+        }
+      },
+      
+      "leftSeat" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1,
+          "transformationGroups" : ["flip", "rotation", "leftSeat"],
+          "leftSeatPosition" : [-1.4, 2.4],
+          "rotationCenter" : [-1.4, 2.4]
+        },
+
+        "partStates" : {
+
+          "movement" : {
+            
+            "idle" : {
+              "properties" : {}
+            },
+
+            "invisible" : {
+              "properties" : {}
+            }
+          }
+        }
+      },
+      
+      "rightSeat" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1,
+          "transformationGroups" : ["flip", "rotation", "rightSeat"],
+          "rightSeatPosition" : [1.8, 2.4],
+          "rotationCenter" : [1.8, 2.4]
+        },
+
+        "partStates" : {
+
+          "movement" : {
+            
+            "idle" : {
+              "properties" : {}
+            },
+
+            "invisible" : {
+              "properties" : {}
+            }
+          }
+        }
+      },
 
       "foreground" : {
         "properties" : {
           "centered" : true,
           "zLevel" : 1,
-          "transformationGroups" : ["flip", "rotation"],
-          "middleSeatPosition" : [0.2, 2.4],
-          "leftSeatPosition" : [-1.4, 2.4],
-          "rightSeatPosition" : [1.8, 2.4]
+          "transformationGroups" : ["flip", "rotation"]
         },
 
         "partStates" : {
@@ -218,7 +288,16 @@
     "rotation" : {
       "interpolated" : true
     },
-    "flip" : {}
+    "flip" : {},
+    "middleSeat" : {
+      "interpolated" : true
+    },
+    "leftSeat" : {
+      "interpolated" : true
+    },
+    "rightSeat" : {
+      "interpolated" : true
+    }
   },
 
   "particleEmitters" : {},
