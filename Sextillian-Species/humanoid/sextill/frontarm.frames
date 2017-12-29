@@ -13,7 +13,7 @@
       [ null, "swimIdle.1", "swimIdle.2", null, "swim.1", "swim.2", "swim.3", "swim.4", "swim.5" ],
       [ null, null, null, "idleMelee", null, null, null, null, "duckMelee" ],
       [ null, "kneel.1", "kneel.2", "kneel.3", "kneel.4", "kneel.5", "kneel.6", "kneel.7" ],
-      [ null, "lay.2", "lay.3", "lay.4", "lay.5", "lay.6", "lay.7" ]
+      [ null, "layup.1", "layup.2", "layup.3", "layup.4", "layup.5", "layup.6" ]
     ]
   },
   "aliases" : {
